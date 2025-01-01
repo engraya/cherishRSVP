@@ -27,10 +27,10 @@ export default function Footer() {
           © {new Date().getFullYear()}{" "}
           <a
             target="_blank"
-            href="https://redpangilinan.live/"
+            href="#"
             className="hover:underline"
           >
-            Red Pangilinan
+            cherishRSVP
           </a>
           . All Rights Reserved.
         </span>

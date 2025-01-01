@@ -8,8 +8,8 @@ import { SiteConfig, ContactConfig } from "@/types"
 const baseUrl = "https://nextlanding.rdev.pro"
 
 export const siteConfig: SiteConfig = {
-  name: "Next Landing",
-  author: "redpangilinan",
+  name: "cherishRSVP",
+  author: "engraya",
   description:
     "Easy to setup, customizable, quick, and responsive landing page starter built with Next.js and shadcn/ui.",
   keywords: [
@@ -18,13 +18,10 @@ export const siteConfig: SiteConfig = {
     "Tailwind CSS",
     "Radix UI",
     "shadcn/ui",
-    "Landing Page",
-    "Template",
-    "Starter",
   ],
   url: {
     base: baseUrl,
-    author: "https://redpangilinan.live",
+    author: "#",
   },
   ogImage: `${baseUrl}/og.jpg`,
 }
