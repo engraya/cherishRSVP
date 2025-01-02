@@ -5,7 +5,7 @@ import Navbar from "@/components/layout/navbar"
 import Footer from "@/components/layout/footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { settings } from "@/config/settings"
-
+import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
@@ -79,6 +79,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Navbar />
             {children}
             <Footer />
+            <Toaster />
           </ThemeProvider>
         )}
       </body>
